@@ -1,0 +1,44 @@
+
+SISTEMA DE REGISTRO DE PRODUCTOS
+
+------------------------------------
+Tecnologias Utilzadas - Versiones
+- PHP 8.2.12
+- MySQL: Versión 5.7 
+- Servidor: Apache/2.4.58
+- XAMPP: v3.3.0
+- Entorno de Desarrollo Utilizado: Visual Studio Code
+
+
+PASOS PARA LA INSTALACIÓN
+--------------------------
+
+1. Desde Visual Studio Code - Instalar Extensiones de PHP y PHP Server.
+
+2. Abrir XAMPP y dentro del panel de control, activar servicios de Apache y MYSQL  
+
+3. Configurar Base de Datos
+   
+   a) Crear la base de datos dentro de  MySQL:
+      - Abrir phpMyAdmin, MySQL  o utilizar la línea de comandos de MySQL
+      - El script llamado sistemaproductos.sql ya incluye la creación de la base de datos junto con sus tablas respectivas.
+
+      CREATE DATABASE sistemaproductos CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+   
+   b) Ejecute script de la base de datos:
+      - Ubicarse en la carpeta SQL
+      - Ejecutar el archivo database.sql en MySQL
+
+4. Desde Visual Code Studio o entorno de desarrollo, conectar la base de datos con su respectiva configuración que posee los siguientes parametros:
+
+$host = 'localhost';
+$port = '3306';
+$dbname = 'sistemaproducto';  
+$user = 'root';
+$password = '';
+
+
+5. Verificar que se haya realizado correctamente la conexión a base de datos.
+
+
+6. Ejecutar el sistema (Visual Studio Code: Opcion Run ----) Run without Debugging).
