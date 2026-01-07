@@ -29,7 +29,6 @@ document.getElementById('bodega').addEventListener('change', function() {
     const idBodega = this.value;
     const selectSucursal = document.getElementById('sucursal');
     
-    // Limpiar sucursales
     selectSucursal.innerHTML = '<option value="">Seleccione una sucursal</option>';
     
     if (idBodega) {

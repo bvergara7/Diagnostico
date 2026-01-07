@@ -78,7 +78,7 @@ function getMonedas($conn){
 }
 
 function getMateriales($conn){
-    $query = "SELECT id_material, nombre_material FROM materiales ORDER BY nombre_material";
+    $query = "SELECT id_material, nombre_material FROM materiales";
     $result = mysqli_query($conn, $query);
 
     $materiales = array();

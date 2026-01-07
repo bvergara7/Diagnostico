@@ -41,4 +41,4 @@ $password = '';
 5. Verificar que se haya realizado correctamente la conexión a base de datos.
 
 
-6. Ejecutar el sistema (Run: Start Debugging o Run without Debugging).
+6. Ejecutar el sistema (Visual Studio Code: Opcion Run ----) Run without Debugging).
